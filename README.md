@@ -1,7 +1,7 @@
-# Leap Year Tech Test years   
+# Leap Year Tech Test   
 
 ## Specification:
-#### Print out the next 20 leap
+#### Print out the next 20 leap years 
 For example, in the Gregorian calendar, each leap year has 366 days instead of the usual 365, by extending February to 29 days rather than the common 28. These extra days occur in years which are multiples of four (with the exception of years divisible by 100 but not by 400).
 
 #### My Approach
