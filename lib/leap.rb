@@ -9,7 +9,6 @@ class Leap
   end
 
   def leap_year?(year)
-    raise 'Please enter a year (YYYY)' if year != '/d{4}/'
     if (year % 4).zero?
       if (year % 100).zero? && (year % 400 != 0)
         false
