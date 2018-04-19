@@ -40,5 +40,8 @@ And watch it go!
 ```
 rspec
 ```
-
 These test for leap and non-leap years, for the counter and for the output.
+
+## With more time, I would...
+Create a prompt to collect user input
+Write more tests to validate input (integers, length)
