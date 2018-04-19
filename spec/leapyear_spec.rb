@@ -7,7 +7,6 @@ describe Leap do
     it 'returns false when year is not divisible by 4' do
       expect(leap.leap_year?(2007)).to eq false
     end
-
     it 'returns true when year is divisible by 4 and 400' do
       expect(leap.leap_year?(2400)).to eq true
     end
@@ -21,7 +20,7 @@ describe Leap do
       leap.leap_loop(2018, 20)
       expect(leap.counter).to eq 20
     end
-    it 'counter ends at 20' do
+    it 'outputs the correct text when counter set' do
       expect{leap.leap_loop(3000, 1)}.to output("3004\n").to_stdout
     end
   end
